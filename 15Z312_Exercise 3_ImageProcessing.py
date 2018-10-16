@@ -9,7 +9,7 @@ from numpy import array, asarray, ndarray
 
 #training controls
 batch_size = 25
-epochs = 1
+epochs = 10
 training_size = 0.7
 
 # input image dimensions
