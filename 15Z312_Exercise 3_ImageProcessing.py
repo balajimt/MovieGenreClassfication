@@ -44,7 +44,7 @@ length=int(len(flist)*training_size)
 #extracting the data about the images that are available
 i=0
 for filename in flist:
-    name=int(filename.split('\\')[-1][:-4])
+    name=int(filename.split('/')[-1][:-4])
     for z in tempY:
         if(z[0]==name):
             img = cv2.imread(filename)
